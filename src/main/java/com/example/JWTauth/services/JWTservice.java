@@ -19,7 +19,7 @@ import java.util.function.Function;
 public class JWTservice {
 
     //nuestra clave secreta para firmar los tokens generados (para poder decodificarlos despues)
-    public static final String SECRET_KEY ="123456789987654321Llasdadswqew12312321312asdsada213213asdas";
+    public static final String SECRET_KEY ="{{YOUR_SECRET_KEY}}";
 
         // Este método genera un token solo con el usuario (sin claims extra)
     public String getToken(UserDetails user) {
